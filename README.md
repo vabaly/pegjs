@@ -5,7 +5,11 @@
 
 PEG.js is a simple parser generator for JavaScript that produces fast parsers with excellent error reporting. You can use it to process complex data or computer languages and build transformers, interpreters, compilers and other tools easily.
 
+PEG.js 是一个简单的用 JavaScript 写的解析器生成器，可快速生成错误日志。你可以使用它来处理复杂的数据或计算机语言，并构建转换器、解释器、编译器或其他类似的工具。
+
 > PEG.js is still very much work in progress. There are no compatibility guarantees until version 1.0
+
+> PEG.js 项目仍在进行中。在 1.0 版本之前不保证兼容性
 
 ### public packages
 

@@ -5,7 +5,11 @@
 
 PEG.js is a simple parser generator for JavaScript that produces fast parsers with excellent error reporting. You can use it to process complex data or computer languages and build transformers, interpreters, compilers and other tools easily.
 
+PEG.js 是一个简单的用 JavaScript 写的解析器生成器，可快速生成错误日志。你可以使用它来处理复杂的数据或计算机语言，并构建转换器、解释器、编译器或其他类似的工具。
+
 > PEG.js is still very much work in progress. There are no compatibility guarantees until version 1.0
+
+> PEG.js 项目仍在进行中。在 1.0 版本之前不保证兼容性
 
 ## features
 
@@ -14,6 +18,14 @@ PEG.js is a simple parser generator for JavaScript that produces fast parsers wi
   * Parsers have excellent error reporting out of the box
   * Based on [parsing expression grammar](http://en.wikipedia.org/wiki/Parsing_expression_grammar) formalism - more powerful than traditional LL(*k*) and LR(*k*) parsers
   * Usable [from your browser](https://pegjs.org/online), from the command line, or via JavaScript API
+
+## 特性
+
+  * 简单而富有表现力的语法
+  * 整合了词法和语法分析
+  * 解析器具有出色的错误报告功能
+  * 基于[解析表达式语法，简称 PEG](http://en.wikipedia.org/wiki/Parsing_expression_grammar) - 比传统的 LL(*k*) 和 LR(*k*) 解析器的功能更强大
+  * 可以通过 [浏览器](https://pegjs.org/online)、命令行或 JavaScript API 三种方式调用
 
 ## documentation
 
@@ -26,6 +38,18 @@ PEG.js is a simple parser generator for JavaScript that produces fast parsers wi
 - [Plugins](https://github.com/pegjs/pegjs/blob/master/docs/guides/plugins.md)
 - [Compatibility](https://github.com/pegjs/pegjs/blob/master/docs/compatibility.md)
 - [Development](https://github.com/pegjs/pegjs/blob/master/docs/development.md)
+
+## 文档
+
+- [开始](https://github.com/pegjs/pegjs/blob/master/docs/guides/getting-started.md)
+- [安装](https://github.com/pegjs/pegjs/blob/master/docs/guides/installation.md)
+- [生成一个解析器](https://github.com/pegjs/pegjs/blob/master/docs/guides/generating-a-parser.md)
+- [使用解析器](https://github.com/pegjs/pegjs/blob/master/docs/guides/using-the-parser.md)
+- [语法和语义](https://github.com/pegjs/pegjs/tree/master/docs/grammar)
+- [JavaScript API](https://github.com/pegjs/pegjs/blob/master/docs/guides/javascript-api.md)
+- [插件](https://github.com/pegjs/pegjs/blob/master/docs/guides/plugins.md)
+- [兼容性](https://github.com/pegjs/pegjs/blob/master/docs/compatibility.md)
+- [开发](https://github.com/pegjs/pegjs/blob/master/docs/development.md)
 
 ## license
 
